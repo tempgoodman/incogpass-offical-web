@@ -2,7 +2,6 @@
 
 import Link from "next/link"
 import { ShieldCheck } from "lucide-react"
-import { Button } from "@/components/ui/button"
 import { languages, type Dict, type Lang } from "@/lib/i18n"
 import { cn } from "@/lib/utils"
 
@@ -33,6 +32,20 @@ export function Navbar({ t, lang, onLangChange }: NavbarProps) {
             {t.nav.technology}
           </Link>
 
+          <Link
+            href="/merchants"
+            className="hidden text-sm font-medium text-muted-foreground transition-colors hover:text-foreground sm:inline-block"
+          >
+            {t.nav.merchants}
+          </Link>
+
+          <Link
+            href="/"
+            className="hidden text-sm font-medium text-muted-foreground transition-colors hover:text-foreground sm:inline-block"
+          >
+            {t.nav.customer}
+          </Link>
+
           {/* Language switcher */}
           <div
             className="flex items-center rounded-full border border-border bg-secondary/50 p-0.5"
@@ -56,20 +69,6 @@ export function Navbar({ t, lang, onLangChange }: NavbarProps) {
               </button>
             ))}
           </div>
-
-          <Link
-            href="/merchants"
-            className="hidden text-sm font-medium text-muted-foreground transition-colors hover:text-foreground sm:inline-block"
-          >
-            {t.nav.merchants}
-          </Link>
-
-          <Button
-            size="sm"
-            className="rounded-full bg-primary font-medium text-primary-foreground shadow-[0_0_20px_-4px] shadow-primary/50 hover:bg-primary/90"
-          >
-            {t.nav.getApp}
-          </Button>
         </div>
       </nav>
     </header>

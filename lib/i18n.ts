@@ -13,6 +13,7 @@ export const locales = {
     nav: {
       merchants: "For Merchants",
       technology: "Technology",
+      customer: "For Customer",
       home: "Home",
       getApp: "Get the App",
     },
@@ -235,6 +236,7 @@ export const locales = {
     nav: {
       merchants: "商戶專區",
       technology: "技術原理",
+      customer: "顧客專區",
       home: "首頁",
       getApp: "下載應用程式",
     },
