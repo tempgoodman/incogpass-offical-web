@@ -66,6 +66,7 @@ export const locales = {
         terms: "Terms",
         merchant: "Merchant Portal",
         contact: "Contact",
+        joinWaitlist: "Join Waitlist",
       },
       rights: "All rights reserved.",
     },
@@ -125,11 +126,11 @@ export const locales = {
     merchants: {
       hero: {
         badge: "For Merchants & BIDs",
-        headline: "Drive Footfall. Skip the GDPR Headache.",
+        headline: "Drive Footfall. Skip the Privacy Headache.",
         subheadline:
-          "The ultimate zero-friction loyalty and marketing platform for independent shops and High Streets. Grow your returning customers without ever handling personal data.",
-        primaryCta: "Start for Free (Merchants)",
-        secondaryCta: "Partner with us (BIDs)",
+          "The ultimate zero-friction loyalty and marketing platform for independent shops. Grow your returning customers without ever handling personal data.",
+        primaryCta: "Join Merchant Waitlist",
+        secondaryCta: "Apply for Early Access",
       },
       values: {
         title: "Built for busy shop owners",
@@ -144,8 +145,8 @@ export const locales = {
             body: "Send targeted push notifications to your regulars (e.g., \"Quiet Tuesday? 20% off today!\") without knowing their phone numbers or emails.",
           },
           {
-            title: "100% GDPR Bulletproof",
-            body: "You store zero personal data. Complete immunity from privacy compliance risks and data breaches.",
+            title: "100% Privacy Bulletproof",
+            body: "You store zero personal data. Complete immunity from privacy compliance risks (e.g. Hong Kong PDPO) and data breaches.",
           },
         ],
       },
@@ -214,6 +215,16 @@ export const locales = {
         ],
         popular: "Most popular",
       },
+      earlyAccess: {
+        headline: "Become a Pioneer Merchant",
+        body: "We are currently in closed beta. Join our waitlist to be among the first local shops to experience the future of private loyalty programs. Secure your early-bird benefits today.",
+        shopNameLabel: "Shop Name",
+        shopNamePlaceholder: "e.g. The Corner Bakery",
+        emailLabel: "Contact Email",
+        emailPlaceholder: "you@yourshop.com",
+        cta: "Join Waitlist",
+        successMessage: "You're on the list! We'll be in touch soon.",
+      },
       footer: {
         contactSales: "Contact Sales",
         applyPilot: "Apply for Pilot",
@@ -277,6 +288,7 @@ export const locales = {
         terms: "條款",
         merchant: "商戶入口",
         contact: "聯絡我們",
+        joinWaitlist: "加入候補名單",
       },
       rights: "版權所有。",
     },
@@ -336,11 +348,11 @@ export const locales = {
     merchants: {
       hero: {
         badge: "商戶與 BID 專區",
-        headline: "帶動人流。免除 GDPR 煩惱。",
+        headline: "帶動人流。免除私隱煩惱。",
         subheadline:
-          "為獨立小店及商業街而設、零摩擦的終極會員與行銷平台。在從不接觸個人資料的情況下，培養更多回頭客。",
-        primaryCta: "免費開始（商戶）",
-        secondaryCta: "成為 BID 合作夥伴",
+          "為獨立小店而設、零摩擦的終極會員與行銷平台。在從不接觸個人資料的情況下，培養更多回頭客。",
+        primaryCta: "加入商戶候補名單",
+        secondaryCta: "申請早期使用權",
       },
       values: {
         title: "專為忙碌的店主而設",
@@ -355,8 +367,8 @@ export const locales = {
             body: "向你的熟客發送針對性推送通知（例如「星期二人流少？今日全單八折！」），無需知道他們的電話號碼或電郵。",
           },
           {
-            title: "100% GDPR 無懈可擊",
-            body: "你不儲存任何個人資料。徹底免疫於私隱合規風險及數據外洩。",
+            title: "100% 私隱無懈可擊",
+            body: "你不儲存任何個人資料。徹底免疫於私隱合規風險（如香港個人資料（私隱）條例）及數據外洩。",
           },
         ],
       },
@@ -424,6 +436,16 @@ export const locales = {
           },
         ],
         popular: "最受歡迎",
+      },
+      earlyAccess: {
+        headline: "成為先驅商戶",
+        body: "我們目前正處於封閉測試階段。加入候補名單，成為首批體驗私隱會員計劃未來的本地小店。立即確保你的早鳥優惠。",
+        shopNameLabel: "店舖名稱",
+        shopNamePlaceholder: "例如：街角麵包店",
+        emailLabel: "聯絡電郵",
+        emailPlaceholder: "you@yourshop.com",
+        cta: "加入候補名單",
+        successMessage: "你已加入名單！我們將盡快與你聯絡。",
       },
       footer: {
         contactSales: "聯絡銷售團隊",

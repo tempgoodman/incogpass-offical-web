@@ -7,6 +7,7 @@ import { ValueProps } from "./value-props"
 import { BidSection } from "./bid-section"
 import { ProxyMarketing } from "./proxy-marketing"
 import { Pricing } from "./pricing"
+import { EarlyAccess } from "./early-access"
 import { MerchantsFooter } from "./merchants-footer"
 
 export function MerchantsPage() {
@@ -22,6 +23,7 @@ export function MerchantsPage() {
         <BidSection t={t} />
         <ProxyMarketing t={t} />
         <Pricing t={t} />
+        <EarlyAccess t={t} />
       </main>
       <MerchantsFooter t={t} />
     </div>

@@ -10,6 +10,7 @@ export function MerchantsFooter({ t }: { t: Dict }) {
     t.footer.links.terms,
     t.footer.links.merchant,
     t.footer.links.contact,
+    t.footer.links.joinWaitlist,
   ]
 
   return (
